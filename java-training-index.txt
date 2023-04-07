@@ -1,0 +1,208 @@
+technologies in java:
+---------------------
+1. Core Java: This refers to the basic features and libraries of the Java language, including the core classes, packages, and syntax.
+2. Advanced Java: This includes more advanced features of the Java language, such as servlets, JSP (JavaServer Pages), JDBC (Java Database Connectivity), and RMI (Remote Method Invocation).
+3. Spring Framework: This is a popular open-source framework for building enterprise-level Java applications. It provides a range of features and tools for dependency injection, AOP (Aspect-Oriented Programming), web development, and more.
+4. Spring Boot: This is a popular extension of the Spring framework that provides a simplified and streamlined approach to building Spring-based applications, with opinionated defaults and pre-configured functionality for common tasks.
+5. Hibernate: This is a popular open-source ORM (Object-Relational Mapping) framework that provides a way to map Java objects to relational database tables and vice versa.
+6. Struts: This is an open-source web application framework that provides a model-view-controller (MVC) architecture for building web applications in Java.
+7. JavaServer Faces (JSF): This is a component-based web framework for building user interfaces in Java, with a focus on reusability and modularity.
+8. Apache Tomcat: This is an open-source web server and servlet container that provides a runtime environment for Java web applications.
+9. JavaFX: This is a platform for building rich client applications in Java, with support for graphics, multimedia, and user interface controls.
+10. Android: This is a mobile operating system based on the Java programming language, with a development framework for building native Android applications.
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Core Java:
+------------------------------------
+1. 4 Types of application
+2. 4 types of java edition
+3. History Of java
+4. java versions java 1 to java 18
+5. features of java
+6. comparision with other 
+
+7. Hellow World Program
+8. Flow of control, and system description details.
+9. Path Setup
+10. JDK, JRE, JVM - architecture
+11. variables
+12. Data types
+13. Unicode system
+14. Operators
+15. Keywords
+
+Control statements:
+------------------
+16. if else, ternary
+17. switch
+18. forloop
+19. while loop
+20. do while loop
+21. break
+22. continue
+23. comments
+
+OOPS Concepts
+------------------
+24. Naming
+25. Object and class
+26. Method
+27. constructor
+28. this and static keyword
+
+Inheritance
+------------------
+29. Java Inheritance(Is-A),
+30. Aggregation(HAS - A)
+
+Polymorphiosm
+------------------
+31. Method Overloading
+32. Method Overriding
+33. Covariant
+34. super keyword
+35. Instance initializer block
+36. Final
+37. Runtime polymorphism
+38. Dynamic binding
+39. instance of operator
+
+Java Abstraction:
+40. Abstract class
+41. interface
+42. difference
+
+Java Encapsulation:
+------------------
+43. Package
+44. Access Modifiers
+45. Encapsulation
+
+46. Array
+47. Object class
+48. Wrapper class
+49. 2 types of object cloning
+
+50. String functions and features
+
+51. Regular Expression and available api's
+
+Exception Handling:
+------------------
+52. Exceptions
+53. combination of try catches
+54. Nested blocks
+55. finally block
+56. throw block
+57. throw vs throws
+58. Custom Exceptions
+
+Java Inner Class:
+------------------
+59. inner class
+60. member inner class
+61. types of inner classes
+62. nested interfaces
+
+
+Java MultiThreading:
+------------------
+62. multi threading
+63. life cycle
+64. thread creation
+65. Scheduler
+66. Thread sleeping
+67. Starting thread multiple times
+68. all about run method.
+69. thread priority, 
+70. daemon thread
+71. Thread pool and group
+72. Shutdown hook, and hooks?
+73. Garbage collection
+74. Runtime class
+
+Java Synchronization:
+------------------
+75. synchronization
+76. synchronization block
+77. static synchronization
+78. deadlock
+79. inter thread communication
+80. interrupting thread
+81. Reentrant monitor
+
+JAVA I/O:
+----------
+82. Java Input Output
+83. File INput Stream
+84. File Output Stream
+85. Buffered Output Stream
+86. Buffered Input Stream
+87. Sequence stream
+88. Byte array Input/Output Stream
+89. Data Input/Output Stream
+90. Console
+91. File Reader / Writer
+92. Input Stream Reader/Writer
+93. Scanner
+
+Serialization:
+----------------
+94. Java Serialization
+95. Java transmit keyword
+
+Java Networking:
+----------------
+96. Networking concepts
+97. Socket Programming
+98. URL Connection
+99. HttpUrl connection
+
+
+100. reflection api's
+
+101. Date Methods and api's.
+102. Java Date Time FOrmat
+103. Current Date Time
+
+104. Typecasting
+
+Collections:
+----------------
+105. Collection Api's and implementation's tree
+106. List interface - ArrayList and Linkedlist
+107. Set interface - hashset, linkedhashset, treeset
+108. Queue - queue, priority queue, dequeue, array dequeue
+109. Map interface - hashmap, linkedhashmap, treemap
+110. Enum map
+111. enum set
+112. stack vector
+113. Collection interface
+114. Iterator interface
+115. Concurrent hash map
+116. Concurrent Linked Queue
+
+117. JDBC drivers and related details
+
+118. Java 8 features
+117. Java more version specific features
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+Springboot:
+----------------
+118. architecture
+119. Creating project
+120. Annotations
+121. Dependency management
+122. Starters and parents
+123. JPA
+124. Actuator
+125. Test using mockito
+126. Dev Tools
+127. auto configuration
+128. AOP vs OOP
+129. Database - Crud, H2, JDBC
+130. Thymeleaf view
+131. Caching
+132. Rest API
+------------------------------------------------------------------------------------------------------------------------------------------------
