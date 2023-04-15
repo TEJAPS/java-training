@@ -1,0 +1,84 @@
+day1:
+--------------------------------------------------------------------
+program1:
+
+class HelloWorld {
+    
+    public static void main(String[] args) {
+
+      //  if(// some condition) {
+            //logic
+       // }
+       Integer attribute1 = 3;
+       // And gate '&&'- all should be true - end is true
+       // anyone is false -end is false
+       
+       // OR gate '||' - atleast one is true - end is true
+       // if, if else, if else if
+       
+       if(attribute1 > 1){
+           System.out.println("You got to destination successfully");
+       } 
+       else if(attribute1 > 10 ) {
+           System.out.println("You were not able to reach the destination");
+       } 
+       else {
+           System.out.println("you are running default case/else case");
+       }
+       
+       if(attribute1 > 1){
+           System.out.println("You got to destination successfully");
+       } 
+       
+       if(attribute1 > 10 ) {
+           System.out.println("You were not able to reach the destination");
+       }
+    }
+    
+}
+--------------------------------------------------------------------
+program2: if else - odd even
+--------
+Pending 
+TASK1: add condition to print that a is neither odd and neither even
+test case: a=2, a=1, a=0.
+
+class HelloWorld {
+    
+    public static void main(String[] args) {
+        Integer a = 3;
+
+        if(a % 2 == 0){
+            System.out.println("given number is even");
+        }
+        else {
+            System.out.println("given number is odd");
+        }
+    }
+    
+}
+--------------------------------------------------------------------
+program 3: Switch statement:
+task1: add all the days of the week
+task2: handle the case by using modulus symbol by doing (day %7)
+
+
+class HelloWorld {
+    //switch
+    public static void main(String[] args) {
+        int day = 10;
+
+        
+        switch(day%7) {
+            case 1:
+                System.out.println("Monday");
+            case 2:
+                System.out.println("Tuesday");
+            case 3:
+                System.out.println("Wednesday");
+            default:
+                System.out.println("Input is invalid");
+        }
+    }
+    
+}

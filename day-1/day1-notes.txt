@@ -1,0 +1,9 @@
+today we worked on:
+---------------------
+1. if, if-else, if-else-if
+2. switch statements
+3. and gate, or gate.
+4. what is method/logic/function
+5. what is inputs to logic/functional arguments/method arguments
+
+tasks given for bullets 1 and 2.
