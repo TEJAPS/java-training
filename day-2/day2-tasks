@@ -1,0 +1,69 @@
+day 2 programs: - 
+-----------------
+#1: Nested Switch Statment
+class HelloWorld {
+        public static void main(String[] args) {
+        int day = 8;
+        int month = 7;
+        switch(day%7) {
+            case 1:
+                System.out.println("Monday");
+                switch(month%2){
+                    case 0:
+                        System.out.println("its an even month");
+                    default:
+                        System.out.println("its an odd month");
+                }
+                break;
+            case 2:
+                System.out.println("Tuesday");
+                break;
+            case 3:
+                System.out.println("Wednesday");
+                break;
+            default:
+                System.out.println("Input is invalid");
+                break;
+        }
+    }
+        
+}
+---------------------------------------
+#2: for loop and nested for loop:
+
+TASK: print your name using for loops
+
+class HelloWorld {
+    // a
+        public static void main(String[] args) {
+            
+            //b
+            int a = 5;
+            int b = 11;
+            // O(1); //fixed
+            // O(5,6) = O(6) = O(1)
+            // O(n,m); //linear
+            
+            // O(n,n)
+            // O(a*b) = O(n^2)
+            // O(a*a) = O(n^2)
+            
+            for(int i=0; i<n; i=i+1){
+                System.out.print("outside loop " + i+"\n");
+                for(int j =0; j<n; j = j+1){
+                    System.out.print("inside loop " + j+"\n");
+                }
+            }
+            
+            // 0 0 1 2 3 4
+            // 1 0 1 2 3 4
+            // 2 0 1 2 3 4
+            // 3 0 1 2 3 4
+            // 4 0 1 2 3 4
+
+        
+        }
+        
+        
+}
+--------------------------------------------
