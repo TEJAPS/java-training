@@ -1,0 +1,89 @@
+day3:
+-----
+#1  while loop , do while loop
+
+class HelloWorld {
+    public static void main(String[] args) {
+        // while
+        
+        int dest=0;
+        int initial=0;
+        
+        while(initial < dest){
+            System.out.print("you are in while loop " + initial + "\n");
+            initial = initial+1;
+            //dest = dest - 1;
+        }
+        
+        initial =0;
+        do{
+        System.out.print("you are in do - while loop " + initial + "\n");
+            initial = initial+1;    
+        }while(initial < dest);
+    }
+}
+---------------------------------------------------------------------.
+#2 break, named loops, break named loops
+
+
+// 
+
+class HelloWorld {
+    public static void main(String[] args) {
+        // while
+        
+        int dest=100;
+        int initial=0;
+        int auxillary = 0;
+        
+        outerwhileloop:
+        while(initial < dest){
+            System.out.print("you are in while loop " + initial + "\n");
+            initial = initial+1;
+            if(initial  == 3){
+                    break;
+                }
+            if(initial<50){
+                innerwhileloop:
+                while(auxillary < 5 ){
+                    
+                    if(auxillary == 2){
+                        break outerwhileloop;
+                    }
+                    System.out.print("you are in inner while loop " + auxillary + "\n");   
+                    auxillary = auxillary + 1;
+                }
+                auxillary = 0 ;
+            }
+        }
+        System.out.println("came out of all while loops");
+        
+    }
+}
+---------------------------------------------------------------------------------
+#3: continue keyword
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+        int dest=10;
+        int initial=0;
+        
+        while(initial < dest){
+            initial = initial+1;
+            
+            if(initial%2 == 0){
+                continue;
+            }
+            System.out.print("you are in while loop " + (initial) + "\n");
+            
+        }
+    }
+}
+---------------------------------------------------------------------------------
+TASKS for today:
+-----------------
+named loops,
+break,
+continue
+
+-- for loops
