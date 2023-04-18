@@ -1,0 +1,6 @@
+today we discussed about:
+1. classes
+2. objects
+3. encapsulation
+4. heap memory intro
+5. implementation and tasks

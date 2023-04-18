@@ -1,0 +1,52 @@
+#1 = class and objects
+
+class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!\n");
+        Integer ancd = 1;
+        Chair chair1 = new Chair();
+        System.out.println("\n" + chair1);
+        chair1.setColor("brown");
+        
+
+        
+        Chair chair2 = new Chair();
+        System.out.println("\n" + chair2);
+        chair2.setColor("white");
+        
+        System.out.println(" color of chair1 "+ chair1.getColor());
+        System.out.println(" color of chair2 "+ chair2.getColor());
+    }
+}
+
+
+class Chair {
+    String color;
+    Double price;
+    double size;
+    
+    public String getColor(){
+        return color;
+    }
+    
+    public void setColor(String inputColor){
+        color = inputColor;
+    }
+    
+    public Double getPrice(){
+        return price;
+    }
+    
+    public void setPrice(Double inputPrice){
+        price = inputPrice;
+    }
+    
+    public double getSize(){
+        return size;
+    }
+    
+}
+-------------------------------------------------------------------
+Today's task:
+
+create a class - with 2 attributes, and logic for doing addition, substraction, multiplication, division, modulus, initialiing data.
