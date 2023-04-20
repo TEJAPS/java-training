@@ -1,0 +1,8 @@
+we did worked today on:
+1. binary to decimal
+2. primitive data types
+3. non-primitive data types
+4. wrapper classes
+5. executing program locally.
+6. executing program with multiple classes
+7. what are conflicts between class names and file names and public.
