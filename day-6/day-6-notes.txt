@@ -1,0 +1,7 @@
+Today we learned about:
+-----------------------
+1. Inheritance theoritically.
+2. initilization of class variables.
+3. Constructors.
+4. Defaut constructor .
+5. Parametarized constructor.
