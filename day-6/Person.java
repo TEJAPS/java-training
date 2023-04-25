@@ -23,6 +23,11 @@ public class Person {
 		age = inputAge;
 	}
 	
+	Person(int iage, String iname){
+		name=abcd;
+		age = inputAge;
+	}
+	
 	
 	String getName(){
 		return name;

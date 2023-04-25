@@ -9,6 +9,7 @@ public class HelloWorld {
 		//Person person = new Person(10);
 		
 		Person person = new Person("bharat",10);
+		Person person = new Person(10,"bharat");
 		
 		//person.setName("bharat");
 		//person.setAge(10);
