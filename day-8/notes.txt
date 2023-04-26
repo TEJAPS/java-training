@@ -1,0 +1,7 @@
+today we learned about:
+-----------------------
+1. Types of inheritance
+2. Why multiple and hybrid inheritance is not possible in java.
+3. Polymorphism
+4. Runtime polymorphism - method overloading
+5. Compile time polymorphism - method overriding
