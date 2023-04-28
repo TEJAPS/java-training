@@ -1,0 +1,4 @@
+static variable vs instance variable
+static method vs instance method
+different combinations of static and instace
+instance initializer block
