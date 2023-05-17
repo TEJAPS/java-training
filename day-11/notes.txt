@@ -1,0 +1,10 @@
+backend code - java - intellij /eclipse
+frontend - vs-code/ Atom (irrespective of language)
+----------------------------------------------------------------
+
+https://start.spring.io/
+today we did:
+-------------
+1. created skeleton of microservice using spring starter
+2. we created get api
+3. we executed api's from browser
