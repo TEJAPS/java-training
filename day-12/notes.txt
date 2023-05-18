@@ -1,0 +1,10 @@
+today we did:
+--------------
+
+1. post
+2. get
+3. delete
+4. put
+5. path variable
+6. query parameters
+
