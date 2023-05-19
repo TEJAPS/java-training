@@ -1,0 +1,62 @@
+today we did:
+--------------
+1. about h2 database
+2. pom.xml
+3. application.properties
+4. actuator
+5. custom endpoints, build in endpoints
+6. jpa
+7. annotations
+8. libraries
+
+
+
+
+
+
+------------------------------------------
+step1: add application.properties
+------------------------------------
+spring.datasource.url=jdbc:h2:mem:testdb  # Database URL
+spring.datasource.username=sa  # Database username
+spring.datasource.password=  # Database password
+spring.datasource.driver-class-name=org.h2.Driver  # Driver class name
+
+spring.h2.console.enabled=true  # Enable H2 console
+spring.h2.console.path=/h2-console  # H2 console URL path
+
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect  # H2 database dialect
+spring.jpa.hibernate.ddl-auto=update  # Database schema generation strategy
+
+
+step2: add actuator:
+------------------------
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-actuator</artifactId>
+</dependency>
+
+step3:
+------
+# Actuator Endpoint Configuration
+management.endpoints.web.exposure.include=*  # Include all endpoints
+management.endpoints.web.exposure.exclude=  # Exclude no endpoints
+
+# Enable Specific Endpoints
+management.endpoint.health.enabled=true  # Enable health endpoint
+management.endpoint.info.enabled=true  # Enable info endpoint
+management.endpoint.metrics.enabled=true  # Enable metrics endpoint
+
+# Customize Actuator Endpoint Paths
+management.endpoints.web.base-path=/actuator  # Change base path of Actuator endpoints
+management.endpoints.web.path-mapping.health=/health-check  # Customize health endpoint path
+management.endpoints.web.path-mapping.info=/about  # Customize info endpoint path
+management.endpoints.web.path-mapping.metrics=/metrics-info  # Customize metrics endpoint path
+
+# Security Configuration (optional)
+management.endpoints.web.exposure.include=health,info,metrics  # Specify endpoints to expose
+management.endpoint.health.roles=admin  # Restrict health endpoint to admin role
+management.endpoint.info.roles=admin  # Restrict info endpoint to admin role
+management.endpoint.metrics.roles=admin  # Restrict metrics endpoint to admin role
+
+
