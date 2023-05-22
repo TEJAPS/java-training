@@ -1,0 +1,14 @@
+today we did:
+--------------
+1. crud operations
+2. ddl commands
+3. dml commands
+4. repository
+
+todays assignment task:
+--------------------------
+for student controller which is performing the CRUD(create read update delete) operations on Student
+
+try preparing the request in postman for each api,
+and hit all the api's via postman
+and validate in the h2-database via localhost:8080/h2-console

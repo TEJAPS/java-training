@@ -4,7 +4,7 @@ today we did:
 2. pom.xml
 3. application.properties
 4. actuator
-5. custom endpoints, build in endpoints
+5. custom endpoints, built in endpoints
 6. jpa
 7. annotations
 8. libraries
